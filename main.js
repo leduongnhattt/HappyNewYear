@@ -26,5 +26,7 @@ function toggleContent() {
 
   isContentBox1Visible = !isContentBox1Visible;
 }
-
+window.onload = function() {
+    window.scrollTo(0, document.body.scrollHeight);
+}
 toggleContent();
